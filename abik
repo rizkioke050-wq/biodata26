@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Biografi Rizki Abikia Saputra</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+<style>
+    /* ======== GLOBAL ======== */
+    body {
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(270deg, #74ebd5, #ACB6E5, #fbc2eb, #a6c0fe);
+        background-size: 800% 800%;
+        animation: gradientBG 15s ease infinite;
+        color: white;
+    }
+    @keyframes gradientBG {
+        0% {background-position: 0% 50%;}
+        50% {background-position: 100% 50%;}
+        100% {background-position: 0% 50%;}
+    }
+
+        <tr><td>Nama</td><td>Rizki Abikia Saputreee</td></tr>
+    h1, h2 {
+        text-align: center;
+        margin: 15px 0;
+        text-shadow: 0 0 10px rgba(255,255,255,0.8);
+    }
+
+    /* ======== CONTAINER ======== */
+    .container {
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    /* ======== SLIDESHOW ======== */
+    .slideshow {
+        width: 250px;
+        height: 250px;
+        margin: 20px auto;
+        position: relative;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 5px solid rgba(255,255,255,0.6);
+        box-shadow: 0 0 20px rgba(255,255,255,0.8);
+    }
+    .slideshow img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        animation: slide 9s infinite;
+    }
+    .slideshow img:nth-child(1) {animation-delay: 0s;}
+    .slideshow img:nth-child(2) {animation-delay: 3s;}
+    .slideshow img:nth-child(3) {animation-delay: 6s;}
+    @keyframes slide {
+        0% {opacity: 0;}
+        10% {opacity: 1;}
+        30% {opacity: 1;}
+        40% {opacity: 0;}
+        100% {opacity: 0;}
+    }
+
+    /* ======== TABLE ======== */
+    table {
+        margin: 20px auto;
+        border-collapse: collapse;
+        min-width: 300px;
+        background: rgba(255,255,255,0.1);
+        border-radius: 15px;
+        overflow: hidden;
+        backdrop-filter: blur(10px);
+    }
+    td {
+        padding: 12px 20px;
+        border-bottom: 1px solid rgba(255,255,255,0.3);
+    }
+    td:first-child {
+        font-weight: bold;
+        color: #ffecb3;
+    }
+    tr:last-child td {
+        border-bottom: none;
+    }
+
+    /* ======== PARAGRAPH ======== */
+    p {
+        text-align: justify;
+        line-height: 1.6;
+        background: rgba(255,255,255,0.05);
+        padding: 15px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    /* ======== HOBI ======== */
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        padding: 0;
+        list-style: none;
+    }
+    ul li {
+        background: rgba(255,255,255,0.1);
+        padding: 12px 20px;
+        border-radius: 8px;
+        transition: transform 0.3s, background 0.3s;
+        cursor: pointer;
+        backdrop-filter: blur(5px);
+    }
+    ul li:hover {
+        transform: scale(1.1) rotate(3deg);
+        background: rgba(255,255,255,0.3);
+    }
+
+    /* ======== RESPONSIVE ======== */
+    @media (max-width: 600px) {
+        .slideshow {
+            width: 180px;
+            height: 180px;
+        }
+        table {
+            font-size: 14px;
+        }
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Biografi Rizki Abikia Saputra</h1>
+
+    <!-- SLIDESHOW FOTO -->
+    <div class="slideshow">
+        <img src="abikia12.jpg" alt="Foto 1">
+        <img src="abikia2.jpg" alt="Foto 2">
+        <img src="abikia3.jpg" alt="Foto 3">
+    </div>
+
+    <!-- TABEL BIODATA -->
+    <h2>Biodata</h2>
+    <table>
+        <tr><td>Nama</td><td>Rizki Abikia Saputra</td></tr>
+        <tr><td>Tempat Lahir</td><td>Lampung Tengah</td></tr>
+        <tr><td>Tanggal Lahir</td><td>06 Juli 2008</td></tr>
+        <tr><td>Umur</td><td>17 Tahun</td></tr>
+    </table>
+
+    <!-- TENTANG SAYA -->
+    <h2>Tentang Saya</h2>
+    <p>
+        Saya adalah seorang pelajar SMA Gunung Madu yang penuh semangat untuk mempelajari hal-hal baru, terutama di bidang art, biologi, fisika
+    </p>
+    <p>
+        Cita-cita saya kedepannya adalah menjadi bos sawit 
+        yang akan membuka lapangan pekerjaan bagi orang-orang yang susah mendapat pekerjaan
+    </p>
+
+    <!-- HOBI -->
+<!-- HOBI -->
+<h2>Pencapaian</h2>
+<ul>
+    <li>
+        Juara Harapan 1 Lomba Membaca Surat Al-Baqarah Ayat 183 <br>
+    </li>
+    <li>
+        Membuat dispenser ototmatis<br>
+        <a href="https://drive.google.com/drive/folders/1NZPjVMqt1ejGVBHb1u5onCz8whTR7beZ" target="_blank">📎 Bukti</a>
+    </li>
+    <li>
+        medsos<br>
+        <a href="https://www.instagram.com/rizkiabikia_03?igsh=c3dhcGh5MTFnank=" target="_blank">📎 Bukti</a>
+    </li>
+</ul>
+
+</div>
+
+</body>
+</html>
